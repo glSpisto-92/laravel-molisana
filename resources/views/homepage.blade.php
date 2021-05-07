@@ -8,8 +8,52 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
+    {{-- header (logo e nav bar) --}}
+    <header>
+        <div class="logo mt-30">
+            <img src="{{asset('images/marchio-sito-test.png')}}" alt="">
+        </div>
+        {{-- nav bar (home,prodotti,news) --}}
+        <nav class="nav_top mt-30">
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Prodotti</a></li>
+                <li><a href="">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {{-- main content (paste, info) --}}
+    <main>
+        <div class="wrapper_main">
+            <h2>Le lunghe</h2>
+            <div class="container cards">
+                @foreach ($lunghe as $pasta)
+                <div class="card">
+                    <img src="{{$pasta['src']}}" alt="">
+                </div>
+                @endforeach
+            </div>
+
+            <h2>Le lunghe</h2>
+            <div class="container cards">
+                @foreach ($corte as $pasta)
+                <div class="card">
+                    <img src="{{$pasta['src']}}" alt="">
+                </div>
+                @endforeach
+            </div>
+
+            <h2>Le lunghe</h2>
+            <div class="container cards">
+                @foreach ($cortissime as $pasta)
+                <div class="card">
+                    <img src="{{$pasta['src']}}" alt="">
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>

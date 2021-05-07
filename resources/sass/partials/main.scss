@@ -1,0 +1,16 @@
+.cards{
+
+    display: flex; 
+    flex-wrap: wrap;
+
+    .card{
+        width:calc((100% / 3) - 20px);
+        margin: 10px;
+
+        img{
+            width: 100%;
+        }
+        
+    }
+
+}

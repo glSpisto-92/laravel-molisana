@@ -1,0 +1,15 @@
+/* colors */
+$main_color: #002d73;
+$secondary_color:#b2e5fc;
+$text_color: #848d9b;
+
+/* font sizes */
+$font_medium: 22px;
+$font_large: 28px;
+
+/* margins */
+@for $i from 1 through 8 {
+    .mt-#{15 * $i} {
+      margin-top: 15px * $i;
+    }
+  }

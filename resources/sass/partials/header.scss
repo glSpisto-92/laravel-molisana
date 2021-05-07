@@ -1,3 +1,30 @@
-.red{
-    color: red;
+
+/* HEADER (logo, nav) */
+.logo{
+    text-align:center;
+
+    img {
+        width:200px;
+    }
+}
+
+.nav_top{
+    
+    ul{
+
+        list-style:none;
+        display:flex;
+        justify-content: center;
+            
+        li a{
+            text-decoration: none;
+            padding: 15px;
+            font-size: $font_medium;
+            color: #000;
+
+            &.active{
+                background-color: $secondary_color;
+            }
+        }
+    }
 }

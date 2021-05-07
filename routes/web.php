@@ -138,6 +138,26 @@ Route::get('/', function () {
         ]
     ];
 
+    $paste_lunghe = [];
+    $paste_corte = [];
+    $Paste_cortissime = [];
 
-    return view('homepage');
+    foreach ($paste_db as $pasta) {
+
+        if ($pasta['tipo'] == 'lunga') {
+
+            $paste_lunghe[] = $pasta;
+        } elseif ($pasta['tipo'] == 'corta') {
+
+            $paste_corte[] = $pasta;
+        } elseif ($pasta['tipo'] == 'cortissima') {
+            $paste_cortissime[] = $pasta;
+        }
+    }
+
+    return view('homepage', [
+        'lunghe' => $paste_lunghe,
+        'corte' => $paste_corte,
+        'cortissime' => $paste_cortissime,
+    ]);
 });
