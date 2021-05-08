@@ -39,6 +39,10 @@
   box-sizing: border-box;
 }
 
+main {
+  font-family: "Teko", sans-serif;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -67,6 +71,12 @@
   background-color: #b2e5fc;
 }
 
+.wrapper_main h2 {
+  text-transform: uppercase;
+  color: #002d73;
+  margin-top: 15px;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -77,4 +87,39 @@
 }
 .cards .card img {
   width: 100%;
+}
+
+.wrapper_main {
+  background-image: url("/images/fondo-pag-speciali.jpg");
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.wrapper_footer {
+  background-image: url("/images/footer-montagne-bottom.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+}
+.wrapper_footer .container {
+  display: flex;
+}
+.wrapper_footer .footer_info {
+  padding: 50px 0 30px 15px;
+  max-width: 30%;
+  text-transform: uppercase;
+}
+.wrapper_footer .footer_left {
+  padding: 50px 0 30px 15px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper_footer .footer_left .box_list {
+  width: calc(100% / 3);
+}
+.wrapper_footer .footer_left .box_list ul {
+  list-style: none;
 }

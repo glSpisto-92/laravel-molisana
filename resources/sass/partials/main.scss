@@ -1,3 +1,12 @@
+.wrapper_main{
+
+    h2{
+        text-transform: uppercase;
+        color: $main_color;
+        margin-top: 15px;
+    }
+}
+
 .cards{
 
     display: flex; 
@@ -10,7 +19,11 @@
         img{
             width: 100%;
         }
-        
     }
+}
 
+.wrapper_main{
+    background-image: url('/images/fondo-pag-speciali.jpg');
+    padding-top: 15px;
+    margin-top: 15px;
 }
