@@ -66,6 +66,7 @@ main {
   padding: 15px;
   font-size: 22px;
   color: #000;
+  display: inline-block;
 }
 .nav_top ul li a.active {
   background-color: #b2e5fc;
@@ -92,7 +93,6 @@ main {
 .wrapper_main {
   background-image: url("/images/fondo-pag-speciali.jpg");
   padding-top: 15px;
-  margin-top: 15px;
 }
 
 .wrapper_footer {
@@ -118,8 +118,14 @@ main {
   flex-wrap: wrap;
 }
 .wrapper_footer .footer_left .box_list {
-  width: calc(100% / 3);
+  width: calc(100% / 2);
+  padding: 20px;
 }
 .wrapper_footer .footer_left .box_list ul {
   list-style: none;
+  margin-top: 15px;
+}
+.wrapper_footer .footer_left .box_list ul a {
+  text-decoration: none;
+  color: grey;
 }

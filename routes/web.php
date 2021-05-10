@@ -161,3 +161,8 @@ Route::get('/', function () {
         'cortissime' => $paste_cortissime,
     ]);
 });
+
+Route::get('/news', function () {
+
+    return view('news');
+});

@@ -21,6 +21,7 @@
             padding: 15px;
             font-size: $font_medium;
             color: #000;
+            display: inline-block;
 
             &.active{
                 background-color: $secondary_color;
