@@ -5,5 +5,7 @@
 @endsection    
 
 @section('content')
-    <h2>News della settimana</h2>
+    <div class="container">
+        <h2>News della settimana</h2>
+    </div>
 @endsection

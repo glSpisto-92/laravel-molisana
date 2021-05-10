@@ -75,7 +75,6 @@ main {
 .wrapper_main h2 {
   text-transform: uppercase;
   color: #002d73;
-  margin-top: 15px;
 }
 
 .cards {
@@ -92,7 +91,17 @@ main {
 
 .wrapper_main {
   background-image: url("/images/fondo-pag-speciali.jpg");
-  padding-top: 15px;
+}
+
+.product_paste {
+  background-color: #b7dae5;
+  padding: 40px;
+}
+.product_paste h2 {
+  text-align: center;
+}
+.product_paste img {
+  width: 100%;
 }
 
 .wrapper_footer {

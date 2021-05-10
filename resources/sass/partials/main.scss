@@ -3,7 +3,6 @@
     h2{
         text-transform: uppercase;
         color: $main_color;
-        margin-top: 15px;
     }
 }
 
@@ -24,5 +23,18 @@
 
 .wrapper_main{
     background-image: url('/images/fondo-pag-speciali.jpg');
-    padding-top: 15px;
+}
+
+.product_paste{
+    background-color: #b7dae5;
+    padding: 40px;
+    
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        width:100%;
+    }
 }

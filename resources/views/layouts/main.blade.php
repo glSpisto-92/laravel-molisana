@@ -20,9 +20,7 @@
         {{-- main content (paste, info) --}}
         <main>
             <div class="wrapper_main">      
-                <div class="container">
                     @yield('content')
-                </div>
             </div>
         </main>
         
