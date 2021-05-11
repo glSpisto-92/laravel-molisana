@@ -16,15 +16,17 @@
         display:flex;
         justify-content: center;
             
-        li a{
-            text-decoration: none;
-            padding: 15px;
-            font-size: $font_medium;
-            color: #000;
-            display: inline-block;
-
+        li{
             &.active{
                 background-color: $secondary_color;
+            }
+        
+            a{
+                text-decoration: none;
+                padding: 15px;
+                font-size: $font_medium;
+                color: #000;
+                display: inline-block;
             }
         }
     }

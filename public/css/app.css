@@ -61,15 +61,15 @@ main {
   display: flex;
   justify-content: center;
 }
+.nav_top ul li.active {
+  background-color: #b2e5fc;
+}
 .nav_top ul li a {
   text-decoration: none;
   padding: 15px;
   font-size: 22px;
   color: #000;
   display: inline-block;
-}
-.nav_top ul li a.active {
-  background-color: #b2e5fc;
 }
 
 .wrapper_main h2 {
